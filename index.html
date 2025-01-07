@@ -54,13 +54,13 @@
             margin-top: 20px;
             background: #fff;
         }
-      .profile-photo {
-        width: 150px; /* Ensure the image is square */
-        height: 150px; /* Crop the image to a square */
-        object-fit: cover; /* Ensures the image is not stretched */
-        border-radius: 50%; /* Makes the image circular */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow */
-      }
+        .profile-photo {
+            width: 150px; /* Square size */
+            height: 150px; /* Square size */
+            object-fit: cover; /* Ensures the image fills the square without distortion */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow */
+            border: 2px solid #ddd; /* Optional: Border around the image */
+          }
     </style>
 </head>
 <body>
@@ -85,10 +85,8 @@
       <div class="container">
         <h2>About Me</h2>
         <div class="about-content">
-          <!-- Profile Photo -->
           <img src="Lingjun_Meng_sea.jpg" alt="Lingjun Meng" class="profile-photo">
           
-          <!-- Description -->
           <div class="about-text">
             <p>
               I am a PhD student in Operations Research at Imperial College London, 
